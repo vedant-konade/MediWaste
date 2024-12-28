@@ -30,3 +30,32 @@ Backend: Firebase (Authentication, Cloud Storage)
 Machine Learning Model: YOLOv8
 Database: Firestore
 Design and Prototyping: Figma
+
+
+How It Works
+Image Capture:
+Users capture an image of medical waste using the app's built-in camera feature.
+
+Classification:
+The YOLOv8 model processes the image to classify the waste type (e.g., sharps, infectious, pathological).
+
+Result Display:
+The app displays the classification result, along with guidelines for proper disposal.
+
+Data Storage:
+Classification data is securely stored in Firestore for tracking and analysis.
+
+Future Enhancements
+Integration with Disposal Services:
+Partnering with waste disposal companies for automated pickup requests.
+
+Multilingual Support:
+Adding support for regional languages to reach a broader audience.
+
+Advanced Analytics:
+Providing detailed insights and reports for healthcare organizations.
+
+AI Model Updates:
+Regular updates to improve classification accuracy.
+
+
